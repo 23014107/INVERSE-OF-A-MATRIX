@@ -23,8 +23,7 @@ End of the program
 #RegisterNumber:212223240137
 
 import numpy as np
-A = np.array([[6,2,3],
-              [3,1,1],[10,3,4]])
+A = np.array([[6,2,3], [3,1,1],[10,3,4]])
 inverse_A = np.linalg.inv(A)
 print(inverse_A)
 
